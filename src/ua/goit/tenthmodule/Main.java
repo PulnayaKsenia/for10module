@@ -28,7 +28,7 @@ public class Main {
 
         try {
             if (s.equals("FILE")) {
-                String fileName = "goIT.txt";
+                String fileName = "sonnet130.txt";
                 String directory = System.getProperty("myDocument");
 
                 File file = new File(directory, fileName);
